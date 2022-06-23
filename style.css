@@ -38,8 +38,12 @@
         cursor: pointer;
         padding: 0px 20px;
         margin-top: 10px;
-        
+        /*curva de velocidad*/
+        transition: all 1.5s ease-in-out;
     }    
+        .header .logo:hover{
+            transform: rotate(360deg);
+        }
             .nav__link{
                 padding: 0 50px;
                 display: flex;    
