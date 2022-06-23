@@ -53,8 +53,13 @@
                 .nav__link li{
                     list-style: none;
                     font-size: 15px;
+                    /*agregando transition*/
                     transition: all 1s;
                 }
+
+                  .nav__link li:hover{
+                    transform: scale(1.5);
+                  }  
                   
                     .nav__link li a{
                         text-decoration: none;
