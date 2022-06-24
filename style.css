@@ -167,6 +167,10 @@
             width: 40px;
             padding: 20px;
         }
+            #iconos i{
+               font-size: 50px;
+               padding: 0 10px;
+            }
      /*FIN FOOTER*/
 
 
