@@ -105,6 +105,9 @@
 
 /*MAIN*/  
 
+.carousel-inner{
+    max-height: 40rem;
+}
 .main{
     /*grid-column: 1 / span 3;*/
     height: 100vh;
