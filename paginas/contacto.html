@@ -16,21 +16,51 @@
 </head>
 <body>
     <section class="grid">
-        <header class="header">
-            <a href="../index.html" class="logo"><img src="../multimedia/imagenes/residencialogo.png" alt="logo residencia"></a>
-            <nav class="nav">
-                <ul class="nav__link">
-                    <li><a href="../index.html">INICIO</a></li>
-                    <li><a href="../paginas/galeria.html">GALERIA</a></li>
-                    <li><a href="../paginas/servicios.html">SERVICIOS</a></li>
-                    <li><a href="../paginas/nosotros.html">NOSOTROS</a></li>
-                    <li><a href="../paginas/contacto.html">CONTACTO</a></li>
-                </ul>   
-            </nav>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark p-1 ">
+                <div class="container-fluid">
+                  <a class="navbar-brand " href="../index.html"><img class="logo" src="../multimedia/imagenes/residencialogo.png" alt="Residencia logo" width="80"></a>
+                  <button class="navbar-toggler link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav w-25 mx-auto">
+                      <a class="text-light nav-link active text link-primary" aria-current="page" href="../index.html">INICIO</a>
+                      <a class="text-light nav-link link-primary" href="../paginas/galeria.html">GALERIA</a>
+                      <a class="text-light nav-link link-primary" href="../paginas/servicios.html">SERVICIOS</a>
+                      <a class="text-light nav-link link-primary" href="../paginas/nosotros.html">NOSOTROS</a>
+                      <a class="text-light nav-link link-primary" href="../paginas/contacto.html">CONTACTOS</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </header>
 
         <main class="contacto">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../multimedia/imagenes/mardelpanoramic.jpg" class="d-block w-100" alt="mdq">
+                  </div>
 
+                  <div class="carousel-item">
+                    <img src="../multimedia/imagenes/md1.jpg" class="d-block w-100" alt="mdq">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="../multimedia/imagenes/md2.jpg" class="d-block w-100" alt="mdq">
+                  </div>
+            
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             <section class="grid-conteiner__contacto">
           
                 <div class="contacto__item">
@@ -44,10 +74,12 @@
              </section>           
            
         </main>
-        <footer class="footer">
-            <a href="https://facebook.com" target="_blank"><img src="../multimedia/imagenes/facebook.png" alt="Logo facebook"></a>
-            <a href="https://www.instagram.com" target="_blank"> <img src="../multimedia/imagenes/instagram.png" alt="Logo Instagram"></a>
-            <a href="https://www.whatsapp.com" target="_blank"> <img src="../multimedia/imagenes/whatsapp.png" alt="Logo whatsapp"></a>
+        <footer class="footer  bg-dark w-100 d-flex aligh-items justtify-content-center flex-wrap">
+            <div id="iconos">
+                <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook text-light link-primary"></i></a>
+                <a href="https://www.whatsapp.com" target="_blank"><i class="bi bi-whatsapp text-light link-success"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram text-light link-danger"></i></a>
+            </div>
         </footer>
 
         <!--java-->
