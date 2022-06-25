@@ -24,9 +24,6 @@
   
 }
 /*HEADER*/
-#link:hover{
-   text-decoration-color: #17202A;
-}
 .header {
     /*grid-column: 1 / span 3 ;*/
     display: flex;
@@ -505,6 +502,11 @@
                                 background-color: rgb(0, 136,169,1);
                                 color: #ffffff;
                                 border: none;
+                            }
+
+
+                            #intro{
+                                width: 90% !important; /*CON !IMPORTANT LE AVISAMOS AL CSS QUE TIENE QUE ESTAR POR ENCIMA DE BOOSTRAP*/
                             }
                             /*FIN MAIN*/
     
