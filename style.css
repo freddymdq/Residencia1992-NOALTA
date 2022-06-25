@@ -272,14 +272,6 @@
                             /*FIN HTML NOSOTROS*/
 /*CONTACTO HTML*/
 
-.contacto{
-    
-}
-    .grid-conteiner__contacto{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(10, 1fr);
-    } 
         .contacto__item{
             background-color: #131516;
             padding: 10px;
