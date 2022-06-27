@@ -118,6 +118,12 @@
 
 /*HTML SERVICIOS*/
 
+#intro {
+    padding: 20px;
+}
+
+
+
 .servicios{
     background-color: #131516;
     font-family: 'roboto', sans-serif;   
