@@ -39,6 +39,10 @@
 
 
  /*GALERIA HTML*/
+.galery{
+    background-color: #131516;
+}
+
 #galeria{
     background-color: #131516;
     background-size: cover;
