@@ -18,26 +18,50 @@
 
 <body>
     <section class="grid">
-        <!--HEADER-->
-        <header> <!--AGREGAR TRANSICIONES A LOS (LINK) y boton para reservas-->
-                <nav class="navbar navbar-expand-lg bg-dark p-1 ">
-                    <div class="container-fluid">
-                      <a class="navbar-brand " href="./index.html"><img class="animate__bounceOut" src="./multimedia/imagenes/residencialogo.png" alt="Residencia logo" width="80"></a>
-                      <button class="navbar-toggler link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-                        <div class="navbar-nav w-25 mx-auto">
-                          <a class="text-light nav-link active text link-primary" aria-current="page" href="./index.html">INICIO</a>
-                          <a class="text-light nav-link link-primary " href="./paginas/galeria.html">GALERIA</a>
-                          <a class="text-light nav-link link-primary" href="./paginas/servicios.html">SERVICIOS</a>
-                          <a class="text-light nav-link link-primary" href="./paginas/nosotros.html">NOSOTROS</a>
-                          <a class="text-light nav-link link-primary" href="./paginas/contacto.html">CONTACTOS</a>
-                        </div>
-                      </div>
-                    </div>
-                  </nav>
-        </header>
+      <header>
+        <nav id="navbar" class="navbar navbar-expand-md bg-dark shadow">           
+            <div class="container-fluid">
+                
+                <!--LOGO-->
+                <a class="navbar-brand ms-2" href="./index.html">
+                    <img src="./multimedia/imagenes/residencialogo.png" width="60" alt="Logo Residencia">
+                </a>
+  
+                <!--BOTON MENU-->
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+  
+                <!--ELEMENTOS MENU COLAPSABLE-->
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="text-light nav-link link-primary active" href="./paginas/galeria.html">GALERIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-light nav-link link-primary" href="./paginas/servicios.html">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-light nav-link link-primary" href="./paginas/nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-light nav-link link-primary" href="./paginas/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+  
+                <!--BOTON RESERVAS-->
+                <form class="d-flex"></form>
+                <button class="btn btn-outline-primary d-none d-md-inline-block ms-5 me-5" type="submit">RESERVAS</button>
+  
+            </div>
+        </nav>   
+        <!--FIN MENU-->
+    
+      </header>
+     <!--FIN HEADER-->
+
+        <!--MAIN-->
     <main>
         <!--CAROUSEL-->
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -64,6 +88,7 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
+        <!--FIN CAROUSEL-->
 
         <section class="w-50 mx-auto text-center pt-5" id="intro">
             <h1 class="p-3 fs-1 border-top border-5 text-primary ">HOTEL RESIDENCIAL</h1>
@@ -71,6 +96,7 @@
             Disfrutaras de su magnífica ubicación en pleno corazón de Mar del Plata...</p>
             <p class="p-3 fs-4 border-bottom border-5 mb-5">Ademas las intalaciones cuentan con monitoreo las 24hs, servicio de seguridad y asistencia medica.</p>
         </section>
+      <!--FIN MAIN-->
     </main>
 
         <footer class="footer  bg-dark w-100 d-flex aligh-items justtify-content-center flex-wrap">
