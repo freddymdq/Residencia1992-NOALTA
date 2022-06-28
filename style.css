@@ -10,7 +10,7 @@
     }
 }
 
-/*MAIN galeria*/  
+/*MAIN*/  
 
 .carousel-inner{
     max-height: 40rem;
@@ -39,6 +39,10 @@
 
 
  /*GALERIA HTML*/
+.galery{
+    background-color: #131516;
+}
+
 #galeria{
     background-color: #131516;
     background-size: cover;
@@ -75,5 +79,9 @@
      /*FIN SERVICIOS*/
     
     
-
+/*NOSOTROS*/
+.main{
+    background-color: #131516;
+}
+/*FIN NOSOTROS*/
     
