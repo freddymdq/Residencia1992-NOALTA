@@ -16,22 +16,19 @@
 
 /*MAIN*/  
 #bgindex{
-background-color: #0a7a96;
-background-image: url(./multimedia/imagenes/pngegg\(14\).png);
-background-size: contain; 
+background-color: #a3a3a3 !important;
+
+
 }
 
-#navbar{
-    background-image: url(./multimedia/imagenes/pngegg\ \(5\).png) !important;
-    background-size: cover;
-}
+
     /*index TARJETA CON FONDO IMG*/
     #bgimg{
         background-image: url(./multimedia/imagenes/pngegg\ \(5\).png);
               
     }
         #footerbg{
-            background-image: url(./multimedia/imagenes/pngegg\ \(5\).png);
+           
         }
 
 
@@ -82,11 +79,8 @@ background-size: contain;
  /*GALERIA HTML*/
 
 
- #bggaleria{
-    background-color: #000000 !important;
-    background-image: url(./multimedia/imagenes/pngegg\ \(11\).png);
-    
-    background-size:contain;         
+#bggaleria{
+        
 }
 
 
