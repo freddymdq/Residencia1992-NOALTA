@@ -16,17 +16,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body id="body">
-    <section class="grid">
+<body>
+    <section id="bgindex" class="grid">
       <!--HEADER-->
       <header>
         <!--MENU-->
-        <nav id="navbar" class="navbar navbar-expand-md bg-dark shadow">           
+        <nav id="navbar" class="navbar navbar-expand-md bg-primary shadow">           
             <div class="container-fluid">
                 
                 <!--LOGO-->
                 <a class="navbar-brand ms-2 animate__bounceIn" href="./index.html">
-                    <img src="./multimedia/imagenes/residencialogo.png" width="60" alt="Logo Residencia">
+                    <img src="./multimedia/imagenes/LOGOBYN.png" width="60" alt="Logo Residencia">
                 </a>
   
                 <!--BOTON MENU-->
@@ -38,23 +38,23 @@
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="text-light nav-link link-primary active" href="#galeri">GALERIA</a>
+                            <a class="text-dark nav-link link-light active" href="#galeri">GALERIA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="text-light nav-link link-primary" href="./paginas/servicios.html">SERVICIOS</a>
+                            <a class="text-dark nav-link link-light" href="./paginas/servicios.html">SERVICIOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="text-light nav-link link-primary" href="./paginas/nosotros.html">NOSOTROS</a>
+                            <a class="text-dark nav-link link-light" href="./paginas/nosotros.html">NOSOTROS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="text-light nav-link link-primary" href="./paginas/contacto.html">CONTACTO</a>
+                            <a class="text-dark nav-link link-light" href="./paginas/contacto.html">CONTACTO</a>
                         </li>
                     </ul>
                 </div>
   
                 <!--BOTON RESERVAS-->
                 <form class="d-flex"></form>
-                <button class="btn btn-outline-primary d-none d-md-inline-block ms-5 me-5" type="submit">RESERVAS</button>
+                <button class="btn btn-danger d-none d-md-inline-block ms-5 me-5" type="submit">RESERVAS</button>
   
             </div>
         </nav>   
@@ -102,7 +102,7 @@
 
         <!--SECTOR TARJETAS-->
         <section class="container">
-          <h2 class="text-center text-primary pb-3 PT-2" id="galeri">GALERIA</h2>              
+          <h2 class="text-center text-primary pb-3 gy-5" id="galeri">GALERIA</h2>              
           <div class="row justify-content-center mb-3">
             <div class="col-lg-4 pt-4">
               <!--TARJETA 1-->
@@ -110,7 +110,7 @@
                 <div class="inner">
                   <img id="imagen" class="card-img-top" src="./multimedia/imagenes/1.jpg" alt="Cuarto Estandar">
                 </div>
-                <div class="card-body text-center">
+                <div id="bgimg" class="card-body text-center">
                   <h4 class="card-title text-primary">ESTANDAR</h4>
                   <p class="card-text">Habitacion compartida, cuenta con baño privado, tv por cable, calefacción.</p>
                   <a href="#" class="btn btn-success">Reservar</a>
@@ -123,7 +123,7 @@
                 <div class="inner">
                   <img id="imagen" class="card-img-top" src="./multimedia/imagenes/2.jpg"   alt="Cuarto Estandar">
                 </div>
-                <div class="card-body text-center">
+                <div id="bgimg" class="card-body text-center">
                   <h4 class="card-title text-primary">EJECUTIVA</h4>
                   <p class="card-text">Habitacion privada, cuenta con baño privado, tv por cable, calefacción.</p>
                   <a href="#" class="btn btn-success">Reservar</a>
@@ -136,8 +136,8 @@
                 <div class="inner">
                   <img id="imagen" class="card-img-top" src="./multimedia/imagenes/6.jpg"   alt="Cuarto Estandar">
                 </div>
-                <div class="card-body text-center">
-                  <h4 class="card-title text-primary">SUIT</h4>
+                <div id="bgimg" class="card-body text-center">
+                  <h4 class="card-title text-dark fs-2">SUIT</h4>
                   <p class="card-text">Habitacion privada, cuenta con baño privado, tv por cable, calefacción. Ademas cuenta con servicios adicionales</p>
                   <a href="#" class="btn btn-success">Reservar</a>
                 </div>
@@ -145,8 +145,8 @@
             </div>
           </div>
           <!--BOTON ACCEDE A GALERIA-->
-          <div class="col-lg-12 text-center pb-3">
-            <a href="./paginas/galeria.html" class="btn btn-outline-primary">Ver mas opciones</a>
+          <div class="col-lg-12 text-center pb-5 pt-5">
+            <a href="./paginas/galeria.html" class="btn btn-primary">Ver mas opciones</a>
           </div>
         </section>
     </main>
@@ -154,15 +154,15 @@
 
 
     <!--FOOTER-->
-        <footer class="footer  bg-dark w-100 d-flex aligh-items justtify-content-center flex-wrap">
+        <footer id="footerbg" class="footer  bg-dark w-100 d-flex aligh-items justtify-content-center flex-wrap">
             <div id="iconos">
-                <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook text-light link-primary"></i></a>
-                <a href="https://www.whatsapp.com" target="_blank"><i class="bi bi-whatsapp text-light link-success"></i></a>
-                <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram text-light link-danger"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook text-dark link-primary"></i></a>
+                <a href="https://www.whatsapp.com" target="_blank"><i class="bi bi-whatsapp text-dark link-success"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram text-dark link-danger"></i></a>
             </div>
         </footer>
+      </section>
     <!--FIN FOOTER-->
-    </section>
     <!--FIN GRID-->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>

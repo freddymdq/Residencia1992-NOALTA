@@ -12,10 +12,30 @@
 
 
 
+
+
 /*MAIN*/  
-#body{
-    background-color: #b6b8b9;
+#bgindex{
+    background-color: #9c9c9c;
+background-image: url(./multimedia/imagenes/pngegg\(14\).png);
+background-size: contain; 
 }
+
+#navbar{
+    background-image: url(./multimedia/imagenes/pngegg\ \(5\).png) !important;
+    background-size: cover;
+}
+    /*index TARJETA CON FONDO IMG*/
+    #bgimg{
+        background-image: url(./multimedia/imagenes/pngegg\ \(5\).png);
+              
+    }
+        #footerbg{
+            background-image: url(./multimedia/imagenes/pngegg\ \(5\).png);
+        }
+
+
+
 .carousel-inner{
     max-height: 40rem;
 }
@@ -58,7 +78,18 @@
      /*FIN FOOTER*/
 
 
+
  /*GALERIA HTML*/
+
+
+ #bggaleria{
+    background-color: #000000 !important;
+    background-image: url(./multimedia/imagenes/pngegg\ \(11\).png);
+    
+    background-size:contain;         
+}
+
+
 .galery{
     background-color: #131516;
 }
