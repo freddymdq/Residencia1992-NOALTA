@@ -1,0 +1,16 @@
+/*HTML SERVICIOS*/
+#bgservicios{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(16,67,99,1) 50%, rgba(23,32,42,1) 100%);
+}
+    #intro {
+        padding: 20px;
+    }
+        .servicios{
+            font-family: 'roboto', sans-serif;   
+        }    
+   
+            #intro{
+                width: 90% !important; /*CON !IMPORTANT LE AVISAMOS AL CSS QUE  TIENE QUE ESTAR POR ENCIMA DE BOOSTRAP*/
+            }
+            /*FIN SERVICIOS*/
