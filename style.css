@@ -10,11 +10,36 @@
     }
 }
 
-/*MAIN*/  
 
+
+
+
+/*MAIN*/  
+#bgindex{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(10,35,51,1) 50%, rgba(23,32,42,1) 100%);
+}
 .carousel-inner{
     max-height: 40rem;
 }
+
+/*TARJETA INDEX IMG*/
+#imagen{
+    width: 100%;
+    
+}
+.container{
+    margin-top: 3%;
+}
+    .inner{
+        overflow: hidden;
+    }
+        .inner img{
+            transition: all 1.5s ease;
+        }
+            .inner:hover img{
+                transform: scale(1.5);
+            }
                         /*FIN MAIN*/
 
 
@@ -38,50 +63,63 @@
      /*FIN FOOTER*/
 
 
- /*GALERIA HTML*/
-.galery{
-    background-color: #131516;
-}
 
-#galeria{
-    background-color: #131516;
-    background-size: cover;
+ /*GALERIA HTML*/
+
+#bggaleria{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(10,35,51,1) 50%, rgba(23,32,42,1) 100%);
 }
-#galeria .col-lg-4{
-    margin: 0 !important;
-    padding: 20px;
-}
-        #galeria img{
-         width: 100%;
-         height: 400px;
-         object-fit: cover;
+    .galery{
+        background-color: #131516;
+    }
+        #galeria{
+            background-color: #131516;
+            background-size: cover;
         }
-            #galeria img:hover{
-                border: 4px solid #2252d6;
+            #galeria .col-lg-4{
+                margin: 0 !important;
+                padding: 20px;
             }
+                #galeria img{
+                width: 100%;
+                    height: 400px;
+                    object-fit: cover;
+                }
+                    #galeria img:hover{
+                        border: 4px solid #2252d6;
+                    }
                     /*FIN HTML GALERIA*/
 
+
 /*HTML SERVICIOS*/
-
-
-#intro {
-    padding: 20px;
+#bgservicios{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(16,67,99,1) 50%, rgba(23,32,42,1) 100%);
 }
-
-.servicios{
-    background-color: #131516;
-    font-family: 'roboto', sans-serif;   
-}    
-   
-    #intro{
-        width: 90% !important; /*CON !IMPORTANT LE AVISAMOS AL CSS QUE TIENE QUE ESTAR POR ENCIMA DE BOOSTRAP*/
+    #intro {
+        padding: 20px;
     }
-     /*FIN SERVICIOS*/
+        .servicios{
+            font-family: 'roboto', sans-serif;   
+        }    
+   
+            #intro{
+                width: 90% !important; /*CON !IMPORTANT LE AVISAMOS AL CSS QUE  TIENE QUE ESTAR POR ENCIMA DE BOOSTRAP*/
+            }
+            /*FIN SERVICIOS*/
     
     
 /*NOSOTROS*/
-.main{
-    background-color: #131516;
+#bgnosotros{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(16,67,99,1) 50%, rgba(23,32,42,1) 100%);
 }
 /*FIN NOSOTROS*/
+
+/*CONTACTO*/
+#bgcontacto{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(16,67,99,1) 50%, rgba(23,32,42,1) 100%);
+}
     

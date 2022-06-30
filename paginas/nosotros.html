@@ -15,31 +15,54 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <section class="grid">
-        <header>
-            <nav class="navbar navbar-expand-lg bg-dark p-1 ">
-                <div class="container-fluid">
-                  <a class="navbar-brand " href="../index.html"><img class="animate__bounceOut" src="../multimedia/imagenes/residencialogo.png" alt="Residencia logo" width="80"></a>
-                  <button class="navbar-toggler link-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <section id="bgnosotros" class="grid">
+        <!--HEADER-->
+    <header>
+        <!--MENU-->
+        <nav id="navbar" class="navbar navbar-expand-md bg-dark shadow">           
+            <div class="container-fluid">
+                
+                <!--LOGO-->
+                <a class="navbar-brand ms-2 animate__bounceIn" href="../index.html">
+                    <img src="../multimedia/imagenes/residencialogo.png" width="60" alt="Logo Residencia">
+                </a>
+  
+                <!--BOTON MENU-->
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-                    <div class="navbar-nav w-25 mx-auto">
-                      <a class="text-light nav-link active text link-primary" aria-current="page" href="../index.html">INICIO</a>
-                      <a class="text-light nav-link link-primary" href="../paginas/galeria.html">GALERIA</a>
-                      <a class="text-light nav-link link-primary" href="../paginas/servicios.html">SERVICIOS</a>
-                      <a class="text-light nav-link link-primary" href="../paginas/nosotros.html">NOSOTROS</a>
-                      <a class="text-light nav-link link-primary" href="../paginas/contacto.html">CONTACTOS</a>
-                    </div>
-                  </div>
+                </button>
+  
+                <!--ELEMENTOS MENU COLAPSABLE-->
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="text-light nav-link link-primary active" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="text-light nav-link link-primary" href="../paginas/galeria.html">GALERIA</a>
+                      </li>
+                        <li class="nav-item">
+                            <a class="text-light nav-link link-primary" href="../paginas/servicios.html">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-light nav-link link-primary" href="../paginas/nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-light nav-link link-primary" href="../paginas/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
                 </div>
-              </nav>
-        </header>
+            </div>
+        </nav>   
+        <!--FIN MENU-->
+    
+      </header>
+     <!--FIN HEADER-->
 
         <main class="main">
             <section class="container-fluid">
                 <div class="w-50 mx-auto text-center pt-5">
-                    <h1  class="text-primary border-top border-2 text-primary pt-4">QUIENES SOMOS</h1>
+                    <h1  class="text-primary border-top border-2 text-light pt-4">QUIENES SOMOS</h1>
                 
                     <p class="pt-4 fs-5 text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium natus ut aut sit asperiores facilis exercitationem ad, aspernatur doloribus fuga minima pariatur corporis quae totam, ipsam sapiente quia voluptas voluptates.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis blanditiis minus ratione consectetur cumque assumenda repellendus, quas aspernatur ipsum cum enim quod? Velit, cumque magnam vero dignissimos aliquid nostrum itaque?
@@ -47,7 +70,7 @@
                 </div>
 
                 <div class="w-50 mx-auto text-center pt-5">
-                    <h2 class="text-primary pt-5 border-botton border-2">DONDE ESTAMOS</h2>
+                    <h2 class="text-light pt-5 border-botton border-2">DONDE ESTAMOS</h2>
             
                     <iframe class="container-md pt-5 pb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.5856660137806!2d-57.545436099999996!3d-38.010123799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc225b5acbf7%3A0x96eb953c15349b83!2sArenales%202578%2C%20B7600EGJ%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1655246967082!5m2!1ses!2sar" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     
@@ -55,7 +78,7 @@
             </section>
          
         </main>
-        <footer class="footer  bg-dark w-100 d-flex aligh-items justtify-content-center flex-wrap">
+        <footer id="footerbg" class="footer  bg-dark w-100 d-flex aligh-items justtify-content-center flex-wrap">
             <div id="iconos">
                 <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook text-light link-primary"></i></a>
                 <a href="https://www.whatsapp.com" target="_blank"><i class="bi bi-whatsapp text-light link-success"></i></a>
