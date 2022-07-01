@@ -1,7 +1,11 @@
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "base/font";
+@import "base/variables";
+@import "components/carrusel";
 @import "components/bg-body";
 @import "components/footer";
-@import "components/galeria";
-@import "components/index";
 @import "components/servicios";
 @import "components/tarjetas";
+
